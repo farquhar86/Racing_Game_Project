@@ -9,13 +9,6 @@ h1, h2{
 	color: white;
 	font-family: 'Play', sans-serif;
 }
-/*.container {
-  width: 1000px;
-  height: 300px;
-  position: relative;
-  margin: 0 auto;
-  overflow: hidden;
-}*/
 
 .planet1 {
   position: absolute;
@@ -88,16 +81,6 @@ h1, h2{
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 }
-/*.playerOne {
-  position: absolute;
-  bottom: 200px;
-  left: 20px;
-}
-.playerTwo {
-  position: absolute;
-  bottom: 50px;
-  left: 20px;*/
-}
 
 table tr td {
   height: 30px;
@@ -105,17 +88,6 @@ table tr td {
   padding: 10px;
   border: 2px solid #ccc;
 }
-
-
-
-/*.ground{
-  height: 50px;
-  width: 100%;
-  position: absolute;
-  bottom: 0px;
-  background-color: gray;
-}*/
-
 
 .title {
 	text-align: center;

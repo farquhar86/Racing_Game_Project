@@ -1,10 +1,8 @@
 
-
-// OOP Racing Game example boilerplate code
 function Game() {
   // number of moves needed to win
   this.numOfMoves = 20;
-  //Create a new instance of player 1
+  //New instance of player one and two
   this.playerOne = new Player(1);
   this.playerTwo = new Player(2);
 
