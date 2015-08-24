@@ -1,1 +1,122 @@
 /* Style Sheet */
+body {
+	background-image: url("images/spaceimage.jpg");
+}
+table {
+  margin: auto;
+}
+h1, h2{
+	color: white;
+	font-family: 'Play', sans-serif;
+}
+/*.container {
+  width: 1000px;
+  height: 300px;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}*/
+
+.planet1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 100px;
+  
+}
+.planet2 {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  top: 320px;
+  
+}
+.catPicture {
+  position: absolute;
+  width: 450px;
+  height: 350px;
+  bottom: 0px;
+  
+}
+
+#total-time {
+	color: white;
+	font-family: 'Play', sans-serif;
+}
+.winner {
+	color: white;
+	font-family: 'Play', sans-serif;
+}
+.timeColor {
+	color: white;
+	font-family: 'Play', sans-serif;
+}
+.playerOne {
+	color: blue;
+}
+
+.rocketShipOne {
+	width: 200px;
+	height: 100px;
+	position: absolute;
+  bottom: 200px;
+  left: 300px;
+  
+
+}
+.time {
+	color: white;
+	font-family: 'Play', sans-serif;
+}
+
+.rocketShipTwo {
+	width: 200px;
+	height: 100px;
+	position: absolute;
+  bottom: 50px;
+  left: 300px;
+}
+
+.info {
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -khtml-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+/*.playerOne {
+  position: absolute;
+  bottom: 200px;
+  left: 20px;
+}
+.playerTwo {
+  position: absolute;
+  bottom: 50px;
+  left: 20px;*/
+}
+
+table tr td {
+  height: 30px;
+  width: 30px;
+  padding: 10px;
+  border: 2px solid #ccc;
+}
+
+
+
+/*.ground{
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  background-color: gray;
+}*/
+
+
+.title {
+	text-align: center;
+}

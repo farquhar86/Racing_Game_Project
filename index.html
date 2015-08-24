@@ -6,14 +6,29 @@
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" href="main.css">
-  <!-- Hey, where's the jquery? -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js"></script>
   <script type="text/javascript" src="app.js"></script>
 </head>
 <body>
-  <!-- HTML Body -->
-  <h1>Rrrracing Game</h1>
-  <img src="http://www.cs.utah.edu/~gk/atwork/img/hevequip2.gif" alt="under construction"></img>
-  <!-- Game Board Here -->
-  <!-- Reset button -->
+  <h1 class="title"> Space Kitty </h1>
+    <h2 class="timer">Total time: <span id="total-time">00:00</span></h2>
+    <h3 class="winningTime"></h3>
+    <div class="winner"></div>
+    <form>
+          <input class="reset" type="submit" value='Play Again!!'>
+    </form>
+    <div class='container'>
+    
+      <div><img src="images/planet2.png" class='planet2'></div>
+
+      <div class='playerOne'><img src="images/rocketship1.png" class='rocketShipOne'></div>
+
+      <div class='playerTwo'><img src="images/rocketship2.png" class='rocketShipTwo'></div>
+
+      <div><img src="images/cat.png" class='catPicture'></div> 
+      <div><img src="images/planet1.png" class='planet1'></div> 
+  
+  </div>
 </body>
 </html>
